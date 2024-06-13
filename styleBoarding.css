@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+    background-image: url(img/boarding.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Gelasio', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #606060;
+    letter-spacing: 5%;
+    margin-left: 8vw;
+    margin-top:28.5vh;
+    margin-bottom: 2vh;
+    font-weight: 24;
+    font-size: 8vw;
+}
+
+h1 {
+    color: #303030;
+    margin-left: 8vw;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    font-size: 8vw;
+}
+
+section {
+    width: 75vw;
+    max-width: 286px;
+    height: 14vh;
+    margin-left: 5vw;
+    margin-bottom: 18vh;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #606060;
+    line-height: 35px;
+    font-weight: normal;
+    font-size: 4vw;
+}
+
+a {
+    display: block;
+    background-color: #242424;
+    color: white;
+    text-decoration: none;
+    width: 159px;
+    height: 54px;
+    text-align: center;
+    line-height: 55px;
+    font-weight: 18;
+    border-radius: 5px;
+    margin-bottom: 18vh;
+    transition: all 0.2s;
+}
+
+a:hover {
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.5);
+    background-color: #3f3f3f;
+}
+
+@media (min-width: 750px) {
+    body {
+        flex-direction: row;
+        justify-content: space-evenly;    
+    }
+
+    h2 {
+        margin-left: 2vw;
+        margin-top: 10vh;
+        margin-bottom: 2vw;
+        font-weight: 24;
+        font-size: 6vw;
+    }
+    
+    h1 {
+        font-size: 6vw;
+        margin-left: 2vw;
+    }
+
+    section {
+        max-width: 30vw;
+        height: 75%;
+        margin-right: 4vw;
+        margin-top: 20vh;
+        margin-bottom: 24vh;
+    }
+    
+    p {
+        line-height: 4vw;
+        font-size: 2vw;
+    }
+    
+    a {
+        margin-top: 4vh;
+        margin-right: 1vw;
+    }
+}
+
+@media (min-height: 1049px) or (min-width:2016px){
+    body {
+        background-image: none;
+        background-color: #808080;
+    }
+
+    header {
+        background-image: url(img/boarding.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h2 {
+        color: #FFFFFF
+    }
+
+    p {
+        line-height: 4vh;
+        font-size: 3vh;
+        color: #FFFFFF
+    }
+
+    a{
+        font-size: 25px;
+        line-height: 10vh;
+        width: 20vh;
+        height: 10vh;
+    }
+
+    a:hover {
+        box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        color: black;
+    }
+}
